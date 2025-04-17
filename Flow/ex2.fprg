@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex2"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-17 09:20:11 "/>
+        <attribute name="created" value="REVTLU1IO1NONTEyLTEyNDI5ODQ7MjAyNS0wNC0xNjsiMDk6NDY6NTMgIjsyMzQw"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODQ7MjAyNS0wNC0xNzsiMDk6MjA6MTEgIjszOzI0Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="10"/>
+            <while expression="i &gt;= 1">
+                <output expression="&quot;Numero :&quot; &amp;i" newline="True"/>
+                <assign variable="i" expression="i-1"/>
+            </while>
+            <output expression="&quot;Fim1&quot;" newline="True"/>
+            <for variable="i" start="10" end="1" direction="dec" step="1">
+                <output expression="&quot;Numero :&quot; &amp;i" newline="True"/>
+            </for>
+            <output expression="&quot;Fim2&quot;" newline="True"/>
+            <assign variable="i" expression="10"/>
+            <do expression="i &gt;= 1">
+                <output expression="&quot;Numero :&quot; &amp;i" newline="True"/>
+                <assign variable="i" expression="i-1"/>
+            </do>
+            <output expression="&quot;Fim3&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

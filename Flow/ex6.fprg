@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex6"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-17 09:46:05 "/>
+        <attribute name="created" value="REVTLU1IO1NONTEyLTEyNDI5ODQ7MjAyNS0wNC0xNzsiMDk6Mzk6MzAgIjsyMzM4"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODQ7MjAyNS0wNC0xNzsiMDk6NDY6MDUgIjsxOzI0NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <for variable="i" start="30" end="1" direction="dec" step="1">
+                <if expression="(i % 4) = 0">
+                    <then>
+                        <output expression="&quot; [&quot; &amp; i &amp; &quot;]&quot;" newline="False"/>
+                    </then>
+                    <else>
+                        <output expression="&quot; &quot; &amp; i" newline="False"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
